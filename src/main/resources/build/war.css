@@ -1,16 +1,20 @@
 @import "additional-styles.css";
-.war-images {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.img {
-    border-radius: 12px;
-    border: 2px solid black;
+.table-wrapper {
     width: 100%;
-    max-width: 300px;
-    height: 200px;
+    overflow-x: auto;
+    box-sizing: border-box;
 }
+
 .table {
-    margin: 20px;
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    white-space: nowrap;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
 }
