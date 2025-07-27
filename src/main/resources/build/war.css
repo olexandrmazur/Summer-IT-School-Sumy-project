@@ -1,0 +1,16 @@
+@import "additional-styles.css";
+.war-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.img {
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+}
+.table {
+    margin: 20px;
+}

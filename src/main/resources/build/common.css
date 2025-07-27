@@ -1,0 +1,116 @@
+html, body {
+   display: flex;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background: url('background.jpg') no-repeat center center fixed;
+   background-size: cover;
+   min-height: 100vh;         /* мінімум на весь екран */
+   display: flex;
+   flex-direction: column;
+}
+* {
+   font-family: Comfortaa;
+}
+.text {
+   font-family: "Monomakh Unicode";
+   font-weight: normal;
+   color: #7fff00;
+   cursor: pointer;
+   text-decoration: none;
+
+}
+.text:hover{
+   color: #eaeaea;
+}
+.button:hover{
+   background: #4cb115;
+   color: #eaeaea;
+}
+.top-bar-sticky {
+   position: sticky;
+   width: 100%;
+   background-color: #337211;
+   color: #eaeaea;
+   padding: 8px 16px;
+   box-sizing: border-box;
+   text-align: center;
+   font-weight: bold;
+   font-size: 16px;
+   z-index: 10000;
+}
+.top-bar-fixed {
+   position: fixed;
+   width: 100%;
+   background-color: #337211;
+   color: #eaeaea;
+   padding: 8px 16px;
+   box-sizing: border-box;
+   text-align: center;
+   font-weight: bold;
+   font-size: 16px;
+   z-index: 10000;
+}
+.bottom-bar {
+   background-color: #337211;
+   color: black;
+   padding: 15px 20px;
+   box-sizing: border-box;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+}
+.nav-links {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 10px;
+}
+main {
+   width: 90%;
+   max-width: 1000px;
+   margin: 40px auto;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.85);
+   border-radius: 10px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   box-sizing: border-box;
+   flex: 1;
+   padding: 20px;
+   box-sizing: border-box;
+}
+.button {
+   font-family: "Monomakh Unicode";
+   background: #eaeaea;
+   color: #337211;
+   width: 80%;
+   max-width: 200px;
+   height: 45px;
+   font-size: 16px;
+   border-radius: 12px;
+}
+.image {
+   border-radius: 12px;
+   border: 2px solid black;
+   width: 100%;
+   max-width: 500px;
+   height: auto;
+}
+.head {
+   text-align: center;
+   font-family: Lobster;
+   font-weight: normal;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+@media (max-width: 768px) {
+   .head {
+      flex-direction: column;
+      gap: 20px;
+   }
+   .top-bar {
+      font-size: 14px;
+      padding: 6px 10px;
+   }
+}
