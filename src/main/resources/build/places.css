@@ -11,8 +11,12 @@
     margin: 0 auto;
 }
 .item {
-    flex: 1 1 calc(33.33% - 50px);
+    flex: 0 0 calc(33.33% - 50px);
     text-align: center;
+}
+.image:hover{
+    scale: 110%;
+    opacity: 0.8;
 }
 
 @media (max-width: 900px) {
@@ -25,9 +29,4 @@
     .item {
         flex: 1 1 100%;
     }
-}
-
-.image:hover{
-    scale: 110%;
-    opacity: 0.8;
 }
