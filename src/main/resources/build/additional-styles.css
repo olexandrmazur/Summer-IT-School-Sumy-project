@@ -1,20 +1,34 @@
-.description {
-    font-size: 20px;
-}
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
 }
+
 .image-element {
     width: 100%;
-    max-width: calc(33.333% - 11px); /* щоб 3 влізли з gap'ами */
+    max-width: calc(33.333% - 14px);
     height: auto;
     object-fit: cover;
     display: block;
     border-radius: 12px;
     border: 2px solid black;
 }
+
+@media (max-width: 900px) {
+    .image-element {
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 600px) {
+    .image-element {
+        max-width: 100%;
+    }
+}
+
 .link {
     font-family: "Monomakh Unicode";
     font-size: 20px;
@@ -25,4 +39,7 @@
 }
 .link:hover{
     color: #4cb115;
+}
+.description {
+    font-size: 20px;
 }
