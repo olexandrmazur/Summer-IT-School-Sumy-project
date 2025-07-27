@@ -11,9 +11,22 @@
     margin: 0 auto;
 }
 .item {
-    flex: 0 0 calc(33.33% - 50px); /* 3 в ряд з урахуванням gap */
+    flex: 1 1 calc(33.33% - 50px);
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    .item {
+        flex: 1 1 calc(50% - 30px);
+    }
+}
+
+@media (max-width: 600px) {
+    .item {
+        flex: 1 1 100%;
+    }
+}
+
 .image:hover{
     scale: 110%;
     opacity: 0.8;
