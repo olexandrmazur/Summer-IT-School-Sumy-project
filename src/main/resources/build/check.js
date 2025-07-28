@@ -38,7 +38,7 @@ senderElement.addEventListener("click", (e) => {
         score++;
         alert("Правильно! Ваш рахунок: " + score);
     } else {
-        alert("Неправильно! Наступного разу вийде краще)");
+        alert("Неправильно! Наступного разу вийде краще");
         window.location.href="check.html";
     }
 
