@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="additional-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<div class="top-bar-sticky">
+    <h1 class="head">Суми від минулого до сьогодення</h1>
+    <div class="nav-links">
+        <a class="text" href="404.html">Історія міста</a>
+        <a class="text" href="places.html">Визначні місця</a>
+        <a class="text" href="404.html">Цікаві факти</a>
+        <a class="text" href="404.html">Легенди й міфи</a>
+        <a class="text" href="404.html">Про мене</a>
+    </div>
+</div>
+<div class="top-bar-fixed">
+    <h1 class="head">Суми від минулого до сьогодення</h1>
+    <div class="nav-links">
+        <a class="text" href="history.html">Історія міста</a>
+        <a class="text" href="war.html">Російсько-українська війна</a>
+        <a class="text" href="places.html">Визначні місця</a>
+        <a class="text" href="facts.html">Цікаві факти</a>
+        <a class="text" href="aboutme.html">Про мене</a>
+    </div>
+</div>
+
+<main>
+    <h3>Всі відповіді треба вводити словами "так" або "ні"</h3>
+    <h2 id = "best"></h2>
+    <form id = "form" class="hidden">
+        <h2 id = "condition">Факт</h2>
+        <input id="answer" class="form-regular" /><br>
+        <button id="sender" class="button-regular" type="submit">Перевірити</button>
+    </form>
+
+    <button id="starter" class="button-regular">Почати тестування</button>
+
+    <script type="module" defer src="check.js"></script>
+
+</main>
+
+<div class="bottom-bar">
+    <button class="button" onclick="window.location.href = 'index.html';">На головну</button>
+</div>
+</body>
+</html>
