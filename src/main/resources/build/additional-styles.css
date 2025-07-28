@@ -30,7 +30,7 @@
 }
 @font-face {
     font-family: "Monomakh Unicode";
-    src: url('MonomakhUnicode.otf') format('opentype');
+    src: url('MonomakhUnicode.woff') format('woff');
 }
 .link {
     font-family: "Monomakh Unicode";
