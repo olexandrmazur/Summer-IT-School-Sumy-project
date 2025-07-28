@@ -32,6 +32,10 @@
     font-family: "Monomakh Unicode";
     src: url('MonomakhUnicode.woff') format('woff');
 }
+@font-face {
+    font-family: "Lobster";
+    src: url('Lobster-Regular.woff') format('woff');
+}
 .link {
     font-family: "Monomakh Unicode";
     font-size: 20px;
