@@ -115,3 +115,16 @@ main {
       padding: 6px 10px;
    }
 }
+.form-regular {
+   font-family: "Comfortaa";
+   background: #eaeaea;
+   color: #337211;
+   width: 80%;
+   max-width: 200px;
+   height: 45px;
+   font-size: 16px;
+   border-radius: 12px;
+}
+.form-regular:hover{
+   opacity: 0.7;
+}
