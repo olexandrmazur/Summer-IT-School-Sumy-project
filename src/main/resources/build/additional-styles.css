@@ -50,3 +50,27 @@
 .description {
     font-size: 20px;
 }
+.button-regular {
+    font-family: "Comfortaa";
+    background: #eaeaea;
+    color: #337211;
+    width: 80%;
+    max-width: 200px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.button-regular:hover{
+    background: #4cb115;
+    color: #eaeaea;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
