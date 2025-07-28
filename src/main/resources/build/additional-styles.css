@@ -28,10 +28,12 @@
         max-width: 100%;
     }
 }
-
-.link {
+@font-face {
     font-family: "Monomakh Unicode";
     src: url('MonomakhUnicode.otf') format('opentype');
+}
+.link {
+    font-family: "Monomakh Unicode";
     font-size: 20px;
     font-weight: normal;
     cursor: pointer;
