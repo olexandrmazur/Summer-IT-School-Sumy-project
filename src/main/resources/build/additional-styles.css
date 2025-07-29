@@ -41,6 +41,10 @@
     font-family: "Lobster";
     src: url('Lobster-Regular.woff') format('woff');
 }
+@font-face {
+    font-family: "Comfortaa";
+    src: url('Comfortaa.woff') format('woff');
+}
 .link {
     font-family: "Monomakh Unicode";
     font-size: 20px;
