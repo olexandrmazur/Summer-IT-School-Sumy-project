@@ -38,7 +38,7 @@ html, body {
    text-align: center;
    font-weight: bold;
    font-size: 16px;
-   z-index: 10000;
+   z-index: 100;
 }
 .top-bar-fixed {
    position: fixed;
@@ -50,7 +50,7 @@ html, body {
    text-align: center;
    font-weight: bold;
    font-size: 16px;
-   z-index: 10000;
+   z-index: 1000;
 }
 .bottom-bar {
    background-color: #337211;
