@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="additional-styles.css">
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
 </head>
 <body>
+<div class="top-bar-sticky">
+    <h1 class="head">Суми від минулого до сьогодення</h1>
+    <div class="nav-links">
+        <a class="text-current" href="index.html">Головна</a>
+        <a class="text" href="history.html">Історія міста</a>
+        <a class="text" href="war.html">Російсько-українська війна</a>
+        <a class="text" href="places.html">Визначні місця</a>
+        <a class="text" href="facts.html">Цікаві факти</a>
+        <a class="text" href="aboutme.html">Про мене</a>
+    </div>
+</div>
 <div class="top-bar-fixed">
     <h1 class="head">Суми від минулого до сьогодення</h1>
     <div class="nav-links">
@@ -19,5 +30,18 @@
         <a class="text" href="aboutme.html">Про мене</a>
     </div>
 </div>
+<main>
+    <div class="images">
+        <img class="image-element" src="stellasumy.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="Gerb_goroda_Sumy.png" onclick="openImage(this.src)">
+    </div>
+    <div id="modal" class="modal" onclick="closeImage()">
+        <img id="modalImg" class="modal-content">
+    </div>
+    <script defer src="open.js"></script>
+    <p style="font-family: Lobster">
+        Су́ми — місто обласного значення в північно-східній частині України, на Слобожанщині, адміністративний центр Сумської міської громади, Сумського району і Сумської області. Населення — 268,409 тис. осіб (13.05.2025).
+    </p>
+</main>
 </body>
 </html>
