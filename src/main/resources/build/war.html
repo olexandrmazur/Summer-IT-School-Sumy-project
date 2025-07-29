@@ -154,10 +154,14 @@
 
     </ul>
     <div class="images">
-        <img class="image-element" src="war3.jpg">
-        <img class="image-element" src="war2.jpg">
-        <img class="image-element" src="war4.jpg">
+        <img class="image-element" src="war3.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="war2.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="war4.jpg" onclick="openImage(this.src)">
     </div>
+    <div id="modal" class="modal" onclick="closeImage()">
+        <img id="modalImg" class="modal-content">
+    </div>
+    <script defer src="open.js"></script>
 </main>
 
 <div class="bottom-bar">
