@@ -41,10 +41,14 @@
 
         З 1917 р. у приміщенні земства розміщувались різні установи, зокрема, Сумська неповна середня школа № 9 та Інститут вдосконалення вчителів. З 1973 р. тут знаходиться Сумський обласний краєзнавчий музей.
     <div class="images">
-        <img class="image-element" src="zemskiyhouse1.jpg">
-        <img class="image-element" src="zemskiyhouse2.jpg">
-        <img class="image-element" src="zemskiyhouse3.jpg">
+        <img class="image-element" src="zemskiyhouse1.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="zemskiyhouse2.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="zemskiyhouse3.jpg" onclick="openImage(this.src)">
     </div>
+    <div id="modal" class="modal" onclick="closeImage()">
+        <img id="modalImg" class="modal-content">
+    </div>
+    <script defer src="open.js"></script>
 </main>
 
 <div class="bottom-bar">
