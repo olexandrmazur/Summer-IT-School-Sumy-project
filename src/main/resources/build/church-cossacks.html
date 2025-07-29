@@ -32,10 +32,14 @@
         Воскресенський собор у Сумах є однією з небагатьох культових споруд православної християнської віри, що має кілька незалежних один від одного поверхів. Це робить її унікальною з архітектурної точки зору. В архітектурі храму гармонійно поєднані традиційні прийоми та риси козацького бароко.
     </p>
     <div class="images">
-        <img class="image-element" src="churchbig.jpg">
-        <img class="image-element" src="churchnight.jpg">
-        <img class="image-element" src="churchday.jpg">
+        <img class="image-element" src="churchbig.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="churchnight.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="churchday.jpg" onclick="openImage(this.src)">
     </div>
+    <div id="modal" class="modal" onclick="closeImage()">
+        <img id="modalImg" class="modal-content">
+    </div>
+    <script defer src="open.js"></script>
 </main>
 
 <div class="bottom-bar">
