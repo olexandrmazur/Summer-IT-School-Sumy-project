@@ -96,6 +96,7 @@ main {
    width: 100%;
    max-width: 500px;
    height: auto;
+   transition: transform 0.3s ease;
 }
 .head {
    text-align: center;
