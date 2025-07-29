@@ -19,7 +19,7 @@
     </div>
 </div>
 <div class="top-bar-fixed">
-    <h1 class="head">Суми: від минулого до сьогодення</h1>
+    <h1 class="head">Суми від минулого до сьогодення</h1>
     <div class="nav-links">
         <a class="text" href="history.html">Історія міста</a>
         <a class="text" href="war.html">Російсько-українська війна</a>
@@ -41,10 +41,14 @@
 
         На початку головної алеї цвинтаря розташовані могили воїнів-інтернаціоналістів, які загинули під час війни в Афганістані. Тут поховані також сумчани, загиблі в останні роки у зоні АТО.    </p>
     <div class="images">
-        <img class="image-element" src="graveyard1.jpg">
-        <img class="image-element" src="graveyard2.jpg">
-        <img class="image-element" src="graveyard3.jpg">
+        <img class="image-element" src="graveyard1.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="graveyard2.jpg" onclick="openImage(this.src)">
+        <img class="image-element" src="graveyard3.jpg" onclick="openImage(this.src)">
     </div>
+    <div id="modal" class="modal" onclick="closeImage()">
+        <img id="modalImg" class="modal-content">
+    </div>
+    <script defer src="open.js"></script>
 </main>
 
 <div class="bottom-bar">
