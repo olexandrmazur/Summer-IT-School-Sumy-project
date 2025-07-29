@@ -15,7 +15,7 @@
     text-align: center;
 }
 .image:hover{
-    scale: 110%;
+    transform: scale(1.1);
     opacity: 0.8;
 }
 
